@@ -1,0 +1,43 @@
+name: Build & Release
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y gettext zip jq
+
+      - name: Validate metadata.json
+        run: jq -e '.KPlugin.Id and .KPlugin.Version' package/metadata.json
+
+      - name: Check that the tag matches the version
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          VERSION=$(jq -r '.KPlugin.Version' package/metadata.json)
+          [ "v$VERSION" = "${GITHUB_REF_NAME}" ] || { echo "Tag ${GITHUB_REF_NAME} ≠ metadata v$VERSION"; exit 1; }
+
+      - name: Build plasmoid
+        run: bash build.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ColorBrush-plasmoid
+          path: ColorBrush-*.plasmoid
+
+      - name: Publish GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ColorBrush-*.plasmoid
+          generate_release_notes: true
