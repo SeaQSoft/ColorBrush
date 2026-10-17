@@ -1,0 +1,11 @@
+# Build output
+*.plasmoid
+
+# Editor / OS clutter
+*.swp
+*~
+.directory
+.vscode/
+.idea/
+*.qmlc
+*.jsc
