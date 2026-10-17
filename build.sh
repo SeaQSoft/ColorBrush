@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 
 # Recompile translations if gettext is available
 if command -v msgfmt >/dev/null 2>&1; then
-    ./scripts/compile-translations.sh
+bash scripts/compile-translations.sh
 fi
 
 VERSION=$(grep -oP '"Version":\s*"\K[^"]+' package/metadata.json)
