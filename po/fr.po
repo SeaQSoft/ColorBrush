@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ColorBrush 1.3.0\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Current color"
+msgstr "Couleur actuelle"
+
+msgid "No color yet"
+msgstr "Aucune couleur"
+
+msgid "Pick color"
+msgstr "Capturer une couleur"
+
+msgid "Color picker failed: %1"
+msgstr "Échec de la pipette : %1"
+
+msgid "History"
+msgstr "Historique"
+
+msgid "Clear"
+msgstr "Effacer"
+
+msgid "No colors yet"
+msgstr "Aucune couleur pour l’instant"
+
+msgid "Click the brush or “Pick color”, then choose any spot on your screen."
+msgstr ""
+"Cliquez sur le pinceau ou « Capturer une couleur », puis choisissez un point"
+" de l’écran."
+
+msgid "Copied: %1"
+msgstr "Copié : %1"
+
+msgid "Choose color"
+msgstr "Choisir une couleur"
+
+msgid "Current: %1"
+msgstr "Actuelle : %1"
+
+msgid "Brush: pick a color · Splat: open history"
+msgstr "Pinceau : capturer · Tache : historique"
+
+msgid "Show as RGB"
+msgstr "Afficher en RVB"
+
+msgid "Show as HEX"
+msgstr "Afficher en HEX"
+
+msgid "Clear history"
+msgstr "Effacer l’historique"

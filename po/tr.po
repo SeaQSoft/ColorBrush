@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ColorBrush 1.3.0\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Current color"
+msgstr "Geçerli renk"
+
+msgid "No color yet"
+msgstr "Henüz renk yok"
+
+msgid "Pick color"
+msgstr "Renk seç"
+
+msgid "Color picker failed: %1"
+msgstr "Renk seçici başarısız: %1"
+
+msgid "History"
+msgstr "Geçmiş"
+
+msgid "Clear"
+msgstr "Temizle"
+
+msgid "No colors yet"
+msgstr "Henüz renk yok"
+
+msgid "Click the brush or “Pick color”, then choose any spot on your screen."
+msgstr "Fırçaya veya “Renk seç”e tıklayın, ardından ekranda bir nokta seçin."
+
+msgid "Copied: %1"
+msgstr "Kopyalandı: %1"
+
+msgid "Choose color"
+msgstr "Renk seç"
+
+msgid "Current: %1"
+msgstr "Geçerli: %1"
+
+msgid "Brush: pick a color · Splat: open history"
+msgstr "Fırça: renk seç · Leke: geçmişi aç"
+
+msgid "Show as RGB"
+msgstr "RGB olarak göster"
+
+msgid "Show as HEX"
+msgstr "HEX olarak göster"
+
+msgid "Clear history"
+msgstr "Geçmişi temizle"

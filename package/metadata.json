@@ -1,0 +1,28 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Swenix-dev"
+            }
+        ],
+        "Category": "Graphics",
+        "Description": "Color picker with a paint brush and splat that take on your picked color, a color history and HEX/RGB switching",
+        "Description[de]": "Farbpipette mit Pinsel und Farbklecks, die die gewählte Farbe annehmen, Farbverlauf und HEX/RGB-Umschaltung",
+        "Description[es]": "Cuentagotas con pincel y mancha que adoptan el color elegido, historial de colores y cambio HEX/RGB",
+        "Description[fr]": "Pipette avec pinceau et tache qui prennent la couleur choisie, historique des couleurs et bascule HEX/RVB",
+        "Description[it]": "Contagocce con pennello e macchia che assumono il colore scelto, cronologia dei colori e passaggio HEX/RGB",
+        "Description[nl]": "Kleurkiezer met penseel en vlek die de gekozen kleur aannemen, kleurgeschiedenis en HEX/RGB-weergave",
+        "Description[pl]": "Pipeta z pędzlem i plamą w wybranym kolorze, historią kolorów i przełączaniem HEX/RGB",
+        "Description[pt_BR]": "Conta-gotas com pincel e mancha que assumem a cor escolhida, histórico de cores e alternância HEX/RGB",
+        "Description[tr]": "Seçilen rengi alan fırça ve lekeli renk seçici, renk geçmişi ve HEX/RGB geçişi",
+        "Icon": "color-picker",
+        "Id": "org.seaq.colorbrush",
+        "License": "GPL-2.0-or-later",
+        "Name": "ColorBrush",
+        "Version": "1.3.0",
+        "Website": "https://github.com/Swenix-dev/ColorBrush",
+        "BugReportUrl": "https://github.com/Swenix-dev/ColorBrush/issues"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
