@@ -1,0 +1,16 @@
+name: Translation
+description: Add or improve a translation
+labels: [translation]
+body:
+  - type: input
+    id: lang
+    attributes:
+      label: Language
+      placeholder: "e.g. Swedish (sv)"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Attach your .po file or describe the wording you would change. See po/README.md.
